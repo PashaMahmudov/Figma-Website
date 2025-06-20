@@ -1,0 +1,431 @@
+* {
+    margin: 0px;
+}
+
+.header {
+    height: 132px;
+    width: 100%;
+    border-bottom: 1px solid #393E46;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222831;
+    position: fixed;
+    z-index: 3;
+}
+
+.header-logo {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 24px;
+    color: #EEEEEE;
+    padding: 3rem 7rem 3rem 7rem;
+    cursor: pointer;
+}
+
+.header-nav {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    gap: 3rem;
+    padding: 3rem 7rem 3rem 7rem;
+}
+
+.header-nav>span {
+    color: #EEEEEE;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pages {
+    background-color: #222831;
+}
+
+.home-page {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-section {
+    position: relative;
+    top: 300px;
+    left: 180px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.info-section>span {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    letter-spacing: 0%;
+}
+
+.info-section>span:nth-child(1) {
+    color: #EEEEEE;
+}
+
+.info-section>span:nth-child(2) {
+    color: #00ADB5;
+    padding-bottom: 3rem;
+}
+
+.info-section-buttons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.info-section-buttons>button:nth-child(1) {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 24px;
+    border: none;
+    background-color: #00ADB5;
+    padding: 10px 32px 10px 32px;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.info-section-buttons>button:nth-child(2) {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 24px;
+    border: none;
+    background-color: rgba(57, 62, 70, 0.75);
+    padding: 10px 32px 10px 32px;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.info-section-buttons>button:nth-child(2)>span {
+    position: relative;
+    bottom: 3px;
+    padding-right: 10px;
+}
+
+.vector-path {
+    position: relative;
+    left: -90px;
+    bottom: 240px;
+    width: fit-content;
+}
+
+.image-section {
+    position: relative;
+    top: 250px;
+    right: 180px;
+    z-index: 0;
+}
+
+.about-me-page {
+    height: calc(100vh - 133px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me-page-left {
+    position: relative;
+    margin: 100px 0 0 180px;
+    display: flex;
+    align-items: center;
+}
+
+.about-me-page-left>img {
+    position: absolute;
+    z-index: 0;
+    bottom: 80px;
+}
+
+.about-me-content {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 390px;
+    position: relative;
+    z-index: 1;
+    top: -148px;
+}
+
+.about-me-content-main {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #EEEEEE;
+}
+
+.about-me-content-main>span {
+    color: rgba(0, 173, 181, 1);
+}
+
+.about-me-content-text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: rgba(238, 238, 238, 0.75);
+}
+
+.about-me-content-text>span {
+    font-weight: bold;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+
+.active {
+    display: block;
+}
+
+.deactive {
+    display: none !important;
+}
+
+.about-me-page-right {
+    margin: 130px 180px 0 0;
+}
+
+/* Projects Page */
+.projects-page {
+    height: 100vh;
+    background-image: url(img/Group\ 2376.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-page-content {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projects-page-content-top {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #EEEEEE;
+}
+
+.projects-page-content-top>span {
+    color: #00ADB5;
+}
+
+.projects-page-content-middle {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.projects-page-content-middle>button {
+    padding: 10px 32px 10px 32px;
+    border-radius: 24px;
+    border: 0;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    background-color: rgba(57, 62, 70, 0.5);
+    color: #EEEEEE;
+    backdrop-filter: blur(8px);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.chosen-button {
+    background-color: #00ADB5 !important;
+}
+
+.projects-page-content-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.projects-page-card {
+    width: 368px;
+    height: 280px;
+    background-color: rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.contact-page {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-page-left {
+    width: 600px;
+    margin-left: 180px;
+    margin-top: 258px;
+}
+
+.contact-page-left>span {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0%;
+    color: #EEEEEE;
+}
+
+.contact-page-left>span>span {
+    color: #00ADB5;
+}
+
+.contact-page-right {
+    width: 600px;
+    margin-right: 180px;
+    margin-top: 270px;
+    position: relative;
+}
+
+.contact-page-form {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #EEEEEE;
+    position: relative;
+    z-index: 2;
+}
+
+.form-name-email {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.form-name>input,
+.form-email>input,
+.form-message>textarea {
+    width: 288px;
+    height: 60px;
+    border-radius: 1rem;
+    border: 0;
+    background-color: rgba(57, 62, 70, 0.5);
+    margin-top: 10px;
+    outline: none;
+    color: #EEEEEE;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+
+.form-name>input::placeholder,
+.form-email>input::placeholder,
+.form-message>textarea::placeholder {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(238, 238, 238, 0.5);
+}
+.form-message>textarea{
+    padding-top: 1.5rem;
+}
+
+.form-message>textarea {
+    width: 100%;
+    height: 280px;
+    resize: none;
+}
+
+.form-button {
+    margin-top: 24px;
+    padding: 10px 32px 10px 32px;
+    border-radius: 24px;
+    border: 0;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    backdrop-filter: blur(8px);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+.contact-page-right>img {
+    position: absolute;
+    top: -135px;
+    z-index: 0;
+}
+
+.footer-page {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    border-top: 1px solid #393E46;
+}
+
+.footer-page-top,
+.footer-page-bottom {
+    display: flex;
+    gap: 3rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #EEEEEE;
+    height: fit-content;
+}
+
+.footer-page-top-item {
+    display: flex;
+    align-items: center;
+    margin-top: 125px;
+    gap: 10px;
+}
+
+.footer-page-middle {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+
+.footer-page-bottom {
+    color: rgba(238, 238, 238, 0.75);
+    align-self: flex-end;
+    margin-right: 6rem;
+    margin-top: auto;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">SaulDesign</div>
+        <nav class="header-nav">
+            <span id="home">Home</span>
+            <span id="aboutMe">About Me</span>
+            <span id="contact">Contact</span>
+        </nav>
+    </header>
+    <main class="pages">
+        <section class="home-page">
+            <section class="info-section">
+                <span>CREATIVE UI</span>
+                <span>DESIGNER</span>
+                <div class="info-section-buttons">
+                    <button>Hire me</button>
+                    <button><span>Download CV</span> <img src="img/download.svg" alt=""></button>
+                </div>
+                <span class="vector-path"><img src="img/Vector 187.svg" alt=""></span>
+            </section>
+            <aside class="image-section">
+                <img src="img/Group 2373.png" alt="">
+            </aside>
+        </section>
+        <section class="about-me-page">
+            <article class="about-me-page-left">
+                <div class="about-me-content">
+                    <span class="about-me-content-main">About <span>me</span></span>
+                    <div class="about-me-content-text active" id="smallerText">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Nunc
+                        vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad
+                        litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis
+                        condimentum lobortis.... <span id="readMore">Read more</span>
+                    </div>
+                    <div class="about-me-content-text deactive" id="biggerText">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Nunc
+                        vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad
+                        litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis
+                        condimentum lobortis Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat itaque,
+                        expedita commodi ea quia laborum ullam dolorem est sequi odit, corrupti earum voluptatibus
+                        eligendi nesciunt molestiae natus iste, minus consectetur. <span id="readLess">Read less</span>
+                    </div>
+                </div>
+                <img src="img/Group 2374.png" alt="">
+            </article>
+            <aside class="about-me-page-right"><img src="img/Group 2375.png" alt=""></aside>
+        </section>
+        <section class="projects-page">
+            <div class="projects-page-content">
+                <div class="projects-page-content-top">My recent <span>works</span></div>
+                <div class="projects-page-content-middle">
+                    <button id="projectsButtonAll" class="chosen-button">All</button>
+                    <button id="projectsButtonUi">UI</button>
+                    <button id="projectsButtonUx">UX</button>
+                    <button id="projectsButtonWeb">Web Design</button>
+                </div>
+                <div class="projects-page-content-bottom">
+                    <div id="uiCard" class="projects-page-card">
+                        <img src="img/Course Website Landing Page Thumbnail 1.png" alt="">
+                    </div>
+                    <div id="uxCard" class="projects-page-card">
+                        <img src="img/Group 2377.png" alt="">
+                    </div>
+                    <div id="webCard" class="projects-page-card">
+                        <img src="img/Group 2378.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-page">
+            <div class="contact-page-left">
+                <span>Got a project in <span>mind?</span></span>
+                <img src="img/Group 2379.png" alt="">
+            </div>
+            <div class="contact-page-right">
+                <form action="" class="contact-page-form">
+                    <div class="form-name-email">
+                        <div class="form-name">
+                            <label for="">Your Name</label><br>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="form-email">
+                            <label for="">Your Email</label><br>
+                            <input type="text" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-message">
+                        <label for="">Your Message</label><br>
+                        <textarea type="text" placeholder="Message"></textarea>
+                    </div>
+                    <button class="form-button">Send Message <img src="img/send.svg" alt=""></button>
+                </form>
+                <img src="img/Group 2380.png" alt="">
+            </div>
+        </section>
+        <section class="footer-page">
+            <div class="footer-page-top">
+                <div class="footer-page-top-item"><img src="img/home.svg" alt="">Home</div>
+                <div class="footer-page-top-item"><img src="img/user.svg" alt="">About me</div>
+                <div class="footer-page-top-item"><img src="img/phone.svg" alt="">Contact</div>
+            </div>
+            <div class="footer-page-middle">
+                <img src="img/Frame 24.svg" alt="">
+                <img src="img/Frame 25.svg" alt="">
+                <img src="img/Frame 26.svg" alt="">
+                <img src="img/Frame 27.svg" alt="">
+            </div>
+            <div class="footer-page-bottom">Terms of Service - Privacy Policy</div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
